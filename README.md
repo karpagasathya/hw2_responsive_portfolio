@@ -1,1 +1,1 @@
-# hw2_responsive_portfolio
+# Responsive Portfolio
