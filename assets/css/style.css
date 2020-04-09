@@ -1,0 +1,118 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 3px solid #aaa;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand{
+  font-size: 30px ;
+  font-weight: 600;
+  text-align: center;
+  left: 80px;
+  background: teal;
+  top: -20px;
+  padding: 20px px;
+  color: #fff;
+}
+/* .navbar-brand{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    position: fixed;
+    left:90px;
+    top:10px;
+    text-align: center;
+} */
+#myname{
+  
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 20px;
+margin-top:-20px; 
+margin-bottom: -20px; 
+
+}
+#myname:hover{
+  color:rebeccapurple;
+}
+#main{
+  text-align: left;
+}
+
+
+/* #navbar{
+   border-bottom: 1px solid grey;
+} */
+.navbar-nav{
+  font-size: 20px;
+  
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: black;
+    background-color: lightgrey;
+  
+}
+#About{
+  background: white;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+/* .main-section {
+  padding: 0px 30px 30px 30px;
+  margin: 0px 0px 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+} */
+
+/* .main-section p {
+  margin: 0px 15px 15px 10px;
+} */
+
+/* .main-section p:first-child {
+  margin-top: -10px !important;
+} */
+
+#footer{
+   border-top: 8px solid #4aaaa5;
+}
+
+
+/* #myphoto{
+    
+  max-width: 25%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: block;
+
+} */
+
+/* .footer{
+    padding-top: 20px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background: aquamarine;
+} */
+
+/* .image-container{
+  text-align: center;
+} */
