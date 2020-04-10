@@ -8,6 +8,36 @@
     <title>sathya - contact</title>
 </head>
 <body>
+    <!-- <header>
+        <div class="container-fluid pt-4 pb-2 pl-4 " style=" background:white">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 pl-4">
+                    <p id="name">Sathya Guru</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    
+                   <ul class="list-inline ">
+                       <li class="list-inline-item">
+                            <a class="nav-link" href="index.html">About </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="list-inline-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                   </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+ -->
+
+
+
+
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="#" id="myname">Sathya Guru</a>
@@ -16,14 +46,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">About </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                         </li>
         
                     </ul>
@@ -31,34 +61,34 @@
         </nav>
     </header>
 
-    <main class="container mt-9 border"id="About" >
+    <main class="container mt-9 "id="About" >
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-lg-12 ">
                 <h1>Contact</h1>
                 <article class="row ">
                     <div class="col-md-12">
-                       <form class="needs-validation" novalidate>
+                       <form data-toggle="validator" role="form">
                             <div class="form-group">
-                                <label for="validationCustom01">Name</label>
-                                <input type="text" class="form-control" id="validationCustom01">
-                                <small id="emailHelp" class="form-text text-muted">your name please</small>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                        
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label for="inputName" class="control-label">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
                             </div>
                             
                             <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            </form> 
+                                <label for="inputEmail" class="control-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="control-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message here"required></textarea>
+                                 <div class="help-block with-errors"></div>
+                            </div>
+    
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+
                     </div>
                 </article>
             </div>
@@ -66,11 +96,26 @@
     </main>
 
 
-
+    <!-- <div class="container mt-4 mb-5 border"  style=" background:white">
+     <h1>About Me</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="imgAbt">
+                <img class="img-fluid pr-3 py-4" width="100%" height="100%" src="https://via.placeholder.com/150" />
+            </div>
+        </div>
+        <div class="col-md-9 p-3">
+            <p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o</p>
+            <p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o</p>
+        </div>
+    </div>
+</div> -->
+  
 
     <footer class="fixed-bottom bg-dark" id=footer>
         <div class="footer-copyright text-center py-3">© 2020 Copyright: sathya
         </div>
     </footer>
+
 </body>
 </html>

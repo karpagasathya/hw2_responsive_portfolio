@@ -14,6 +14,12 @@ h1{
     border-bottom: 3px solid #aaa;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ h2{
+   text-align: center;
+   border-bottom: 3px solid #aaa;
+   margin-bottom: 20px;
+   margin-top: 20px;
+ }
 
 .navbar-brand{
   font-size: 30px ;
@@ -22,9 +28,27 @@ h1{
   left: 80px;
   background: teal;
   top: -20px;
-  padding: 20px px;
+  /* padding: 10px 25px; */
   color: #fff;
+  margin-left: 10px;
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
 }
+
+
+
+.navbar-right > li {
+    margin-top: 15px;
+    border-left: 1px solid #efefef;
+}
+
+.navbar-right > li:first-of-type
+{
+    border-left: none;
+}
+
+
 /* .navbar-brand{
     text-align: center;
     font-weight: 600;
@@ -53,6 +77,10 @@ margin-bottom: -20px;
   text-align: left;
 }
 
+/* #main-container {
+    min-height: 100%
+} */
+
 
 /* #navbar{
    border-bottom: 1px solid grey;
@@ -76,25 +104,14 @@ body{
   margin-left: 30px;
 }
 
-/* .main-section {
-  padding: 0px 30px 30px 30px;
-  margin: 0px 0px 30px;
-  background: #fff;
-  border: 1px solid #ddd;
-} */
 
-/* .main-section p {
-  margin: 0px 15px 15px 10px;
-} */
-
-/* .main-section p:first-child {
-  margin-top: -10px !important;
-} */
 
 #footer{
    border-top: 8px solid #4aaaa5;
 }
-
+#name{
+  font-size: 25px;
+}
 
 /* #myphoto{
     
@@ -106,13 +123,64 @@ body{
 
 } */
 
-/* .footer{
-    padding-top: 20px;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-    background: aquamarine;
-} */
+.portfolio-overlay {
+		position: relative;
+		background-color: rgb(234, 234, 234);
+		height: 40px;
+		line-height: 40px;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-align: center;
+		width: 100%;
+		opacity: 0.9;
+		}
+		
+		/* .card-img-overlay:hover {
+		transform: rotate(-4deg) scale(1.1, 1.1);
+		} */
+	  
+	  .card-img-overlay {
+		display: flex;
+		top: -60px;
+		justify-content: center;
+		align-items: flex-end;
+		align-content: flex-end;
+		padding: 1em;
+		z-index: 1000;
+		width: 361px
+	
+    }
+    
 
-/* .image-container{
-  text-align: center;
-} */
+    .thumbnail 
+{
+    max-width: 100%;
+    position: relative;
+    border: none;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 50%;
+}
+
+.work img {
+    opacity: .8;
+}
+
+.work h3 { 
+    padding: 15px;
+    line-height: 30px;
+    border-bottom: 0;
+    margin-bottom: 0; 
+    text-align: center;
+    font-weight: 300;
+    background: #bc4f5e;
+    color: #fff;
+} 
+
+.work:hover img {
+    opacity: 1;
+}
