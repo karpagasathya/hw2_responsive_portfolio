@@ -1,0 +1,49 @@
+    <main class="container mt-6 "id="About" >
+        <div class="row ">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+                <article class="row single-post mt-5 no-gutters">
+                    <div class="col-xs-12">
+                        <div class="image-wrapper float-left pr-3 py-3">
+                            <img src="assets/images/profile-low.jpg" width="200" height="200" class="img-fluid" alt="profile picture">
+                        </div>
+                        <div class="single-post-content-wrapper p-3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+
+
+
+<!-- <header>
+        <div class="container-fluid pt-4 pb-2 pl-4 " style=" background:white">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 pl-4">
+                    <p id="name">Sathya Guru</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    
+                   <ul class="list-inline ">
+                       <li class="list-inline-item">
+                            <a class="nav-link" href="index.html">About </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="list-inline-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                   </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+ -->
