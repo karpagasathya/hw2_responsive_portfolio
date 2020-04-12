@@ -3,19 +3,9 @@
 *{
     box-sizing: border-box;
 }
-
-h1, h2{
-    color: #4aaaa5; 
-    padding-bottom: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40px;
-    border-bottom: 3px solid #aaa;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
  
 
-
+/* heading in navbar */
 .navbar-brand {
   height: 80px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -23,12 +13,14 @@ h1, h2{
   font-weight: 700;
   line-height: 70px;
   color: #fff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-  margin-top: -1px;
-  left: 80px;
-  
+  background: #4aaaa5; 
+}
+
+#navbar{
+   border-bottom: 1px solid #aaa;
+}
+.navbar-nav{
+  font-size: 20px;  
 }
 
 .navbar-right > li {
@@ -41,8 +33,6 @@ h1, h2{
     border-left: none;
 }
 
-
-
 #myname{
   color: white;
 
@@ -50,23 +40,21 @@ h1, h2{
 #myname:hover{
   color:yellow;
 }
-.btn{
-  background: #4aaaa5;
-  color: white;
+
+
+
+/* heading inside the body container */
+
+h1, h2{
+    color: #4aaaa5; 
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 2px solid #aaa;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 
-
-
-
-
-#navbar{
-   border-bottom: 1px solid #aaa;
-}
-.navbar-nav{
-  font-size: 20px;
-  
-}
 body{
     font-size: 16px;
     line-height: 1.5;
@@ -76,13 +64,9 @@ body{
     background-color: lightgrey;
   
 }
-#About{
-  background: white;
-  margin-top: 50px;
-  margin-left: 30px;
-}
 
 
+/* footer  */
 
 #footer{
    border-top: 8px solid #4aaaa5;
@@ -90,9 +74,9 @@ body{
 
 
     
-/* portfolio */
+/* portfolio page*/
 .caption {
-  width:100%;
+  width: 100%;
   bottom: 10px;
   position: absolute;
   background: #4aaaa5;
@@ -105,7 +89,7 @@ body{
   margin: 50px;
   opacity: 0.9;
   padding: 0;
-  max-width: 220px;  /* computed max-width of img-fluid */
+  max-width: 250px;  /* computed max-width of img-fluid */
 }
 
 .caption h3 {
@@ -117,12 +101,12 @@ body{
   
 }
 
-.caption:hover{
+ .caption:hover{
   transform: rotate(-4deg) scale(1.1, 1.1);
-}
+} 
 
-@media screen and (max-width: 500px){
-#content{
-   background-color: aqua;
-  }
+/* contact page  */
+.btn {
+  background: #4aaaa5;
+  color: white;
 }
